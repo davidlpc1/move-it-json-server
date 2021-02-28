@@ -4,9 +4,10 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "json-server": "^0.16.3"
+    "json-server": "^0.16.3",
+    "path": "^0.12.7"
   },
-  "scripts":{
-    "build":"json-server --watch db.json"
+  "scripts": {
+    "server": "node server.js"
   }
 }
